@@ -1,0 +1,27 @@
+Name: UniProt
+Description: The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the UniProt Knowledgebase (UniProtKB), the UniProt Reference Clusters (UniRef), and the UniProt Archive (UniParc). The UniProt consortium and host institutions EMBL-EBI, SIB and PIR are committed to the long-term preservation of the UniProt databases.
+Documentation: https://www.uniprot.org/help/aws-open-data
+Contact: 
+ManagedBy: Swiss Institute of Bioinformatics
+UpdateFrequency: Under 1 months after a new UniProt release.
+Tags:  
+  - chemistry
+  - protein
+  - enzyme
+  - molecule
+  - life sciences
+  - neptune
+  - rdf
+License: http://creativecommons.org/licenses/by/4.0/ 
+Resources: 
+  - Description: UniProt 2021_01
+    ARN: 
+    Region: 
+    Type: S3 Bucket
+DataAtWork:
+  Tutorials:
+    - Title: UniProt in Neptune Deployment Guide
+      URL: 
+      AuthorName: 
+      Services:
+        - Neptune
